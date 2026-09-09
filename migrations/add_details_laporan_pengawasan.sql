@@ -1,0 +1,7 @@
+ALTER TABLE laporan_pengawasan 
+ADD COLUMN nomor_sk VARCHAR(100) NULL,
+ADD COLUMN tanggal_sk DATE NULL,
+ADD COLUMN nomor_litmas VARCHAR(100) NULL,
+ADD COLUMN tanggal_litmas DATE NULL,
+ADD COLUMN simpulan TEXT NULL,
+ADD COLUMN saran TEXT NULL;

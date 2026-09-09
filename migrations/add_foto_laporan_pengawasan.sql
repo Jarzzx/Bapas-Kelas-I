@@ -1,0 +1,1 @@
+ALTER TABLE laporan_pengawasan ADD COLUMN foto_dokumentasi VARCHAR(255) NULL AFTER catatan;
